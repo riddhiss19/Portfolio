@@ -8,8 +8,8 @@
     --container: hsl(0,0%,93%);
     --border:hsl(0,0%,87%);
     --text-white:#fff;
-    --extra:#f8f3f3;
-    --modal-bg:hsl(0,0%,20%,0.8);
+    --extra:#222;
+    --modal-bg:hsl(0deg 0% 70% / 80%);
     --contact-bg:hsla(0, 4%, 91%, 0.6);
      
 

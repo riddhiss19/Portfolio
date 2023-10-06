@@ -93,7 +93,7 @@ export const personalInfo = [
   {
     id: 10,
     title: 'Langages : ',
-    description: 'Hindi, English, Marathi',
+    description: ' Marathi, Hindi, English',
   },
 ];
 
@@ -126,6 +126,14 @@ export const stats = [
 
 export const resume = [
   {
+    id: 7,
+    category: 'experience',
+    icon: <FaBriefcase />,
+    year: 'Sept 2023-Oct 2023',
+    title: 'Java Development Intern<span>CodeClause</span>',
+    desc: 'Completed 6 weeks internship on Java Development in association with CodeClause',
+  },
+  {
     id: 1,
     category: 'experience',
     icon: <FaBriefcase />,
@@ -138,9 +146,18 @@ export const resume = [
     id: 2,
     category: 'experience',
     icon: <FaBriefcase />,
-    year: '2013 - 2018',
+    year: 'July 2022',
     title: 'Training & Internship on AI-DS<span> Sandip Foundation </span>',
     desc: 'Gained hands-on experience in AI and Data Science using Python programming to solve real-world challenges.',
+  },
+  
+  {
+    id: 3,
+    category: 'experience',
+    icon: <FaBriefcase />,
+    year: 'Sept 2021-Dec 2021',
+    title: 'Social Media Marketing Intern<span> MemeXD </span>',
+    desc: 'Handled social media accounts of MemeXD and created content for the same.',
   },
 
   {

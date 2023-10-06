@@ -17,7 +17,7 @@ const Home = () => {
           </h1>
 
           <p className="home__description">
-          I am a computer engineering student with a strong interest in designing and web development. I'm an AI geek and a keen learner. I am constantly looking for new ways to push the limits.  
+          I am a computer engineering student with a strong interest in designing and web development. I'm an AI geek and a keen learner. I am constantly looking for new ways to push my limits.  
           </p>
 
           <Link to="/about" className='button'>

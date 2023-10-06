@@ -194,10 +194,7 @@
     .container{
         max-width: 540px;
     }
-/* 
-    .portfolio__modal-content{
-        padding: 25px 20px;
-    } */
+
     
     .modal__close
     {
@@ -247,7 +244,10 @@
     .theme__toggler{
         bottom: 15%;
     }
-  
+    .about__info .button,
+    .contact__container .button{    
+        margin-left: 28%;
+    }
 }
 
 @media screen and (max-width:450px){
@@ -276,5 +276,9 @@
     }
     .stats__box{
         padding: 15px 15px 25px 20px;
+    }
+    .about__info .button,
+    .contact__container .button{    
+        margin-left: 25%;
     }
 }
