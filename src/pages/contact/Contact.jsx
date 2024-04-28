@@ -60,7 +60,7 @@ const Contact = () => {
           </div>
         </div>
 
-        <form className="contact__form" action="https://formsubmit.co/dd74624155fd5adb1dd82c4997ee266f" method="POST" >
+        <form className="contact__form" action="https://formsubmit.co/el/xarota" method="POST" >
           <div className="form__input-group">
             <div className="form__input-div">
               <input type="text" name='name' placeholder='Your Name' className="form__control" />

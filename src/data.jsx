@@ -15,6 +15,9 @@ import Work3 from './assets/pro3.jpg';
 import Work4 from './assets/pro4.png';
 import Work5 from './assets/pro5.jpg';
 import Work6 from './assets/pro6.png';
+import Work7 from './assets/pro7.png';
+import Work8 from './assets/pro8.png';
+import Work9 from './assets/pro9.png';
 
 export const links = [
   {
@@ -62,7 +65,7 @@ export const personalInfo = [
   {
     id: 3,
     title: 'Age : ',
-    description: '19 Years',
+    description: '20 Years',
   },
 
   {
@@ -108,7 +111,7 @@ export const stats = [
   {
     id: 3,
     no: '81+',
-    title: 'Participated in 5+ Hackathons',
+    title: 'Qualified for finale of All India Womens Hackathon 2023',
   },
   {
     id: 1,
@@ -119,12 +122,20 @@ export const stats = [
   {
     id: 4,
     no: '53+',
-    title: ' Volunteerd At Social Wellfare & Devp Committee, VIT Pune',
+    title: ' Actively volunteered in an educational activity for underprivilaged children',
   },
   
 ];
 
 export const resume = [
+  {
+    id: 8,
+    category: 'experience',
+    icon: <FaBriefcase />,
+    year: 'Sept 2023-Oct 2023',
+    title: 'UI/UX Intern<span>Herbs Magic</span>',
+    desc: 'Conceptualized and redesigned responsive user interfaces for the organizational website using Figma over a period of 5 months.',
+  },
   {
     id: 7,
     category: 'experience',
@@ -139,7 +150,7 @@ export const resume = [
     icon: <FaBriefcase />,
     year: 'June 2023-July 2023',
     title: 'Front End Developer Intern <span> Edunet </span>',
-    desc: 'Completed 6 weeks internship on Front End Development in association with Edunet Foundation and IBM Skillsbuild',
+    desc: 'Completed 6-week intensive Front-End Development internship, building a real-world project with HTML, CSS, JavaScript and ReactJS.',
   },
 
   {
@@ -375,5 +386,79 @@ export const portfolio = [
       },
     ],
   },
+
+  {
+    id: 7,
+    img: Work8,
+    title: 'JS to Py Transpiler',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'JavaScript to Python Transpiler with readability enhancer',
+      },
+    
+      {
+        icon: <FaCode />,
+        title: 'Tech Stack : ',
+        desc: 'HTML, CSS, JS, Python, Flask',
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Preview : ',
+        desc:  <a href='https://github.com/riddhiss19/Neocode.' target='__blank'>View Project</a>,
+      },
+    ],
+  },
+  {
+    id: 8,
+    img: Work7,
+    title: 'AI Resume Parser',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'AI Resume Parser and Job recommander',
+      },
+    
+      {
+        icon: <FaCode />,
+        title: 'Tech Stack : ',
+        desc: 'HTML, CSS, JS, Python, MySQL, NLP',
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Preview : ',
+        desc:  <a href='https://github.com/riddhiss19/AI-res' target='__blank'>View Project</a>,
+      },
+    ],
+  },
+
+  {
+    id: 9,
+    img: Work9,
+    title: 'Multiprogramming OS',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'cmd based Multiprogramming OS',
+      },
+    
+      {
+        icon: <FaCode />,
+        title: 'Tech Stack : ',
+        desc: 'Java',
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Preview : ',
+        desc:  <a href='https://github.com/riddhiss19/multiprogramming-os' target='__blank'>View Project</a>,
+      },
+    ],
+  },
 ];
 
+
+
+ 
